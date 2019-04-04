@@ -14,7 +14,7 @@ class App extends React.Component {
         <div>
           Select a language:
           <i className="flag uk" onClick={() => this.onLanguageChange('english')}/>
-          <i className="flag fr" onClick={() => this.onLanguageChange('french')}/>
+          <i className="flag fr" onClick={() => this.onLanguageChange('francais')}/>
         </div>
         <UserCreate/>
       </div>
